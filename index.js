@@ -55,3 +55,12 @@ if (age>=18) {
 // for Cyklus - víme, kolik přesně chceme opakování
 
 
+//Ukol4
+let i = Number(prompt('Napiš číslo'));
+let soucet = 0;
+while (i !== 0 ) {
+  i = Number(prompt('Napiš číslo'))
+ soucet = soucet + i;
+ console.log('Součet:'+soucet)
+}
+console.log('Celkový souet:'+soucet) 
